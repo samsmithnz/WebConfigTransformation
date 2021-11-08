@@ -21,3 +21,4 @@ jobs:
         env:
           demoVar: "fixed!"
           demoVar2: "fixed!"
+      - run: get-content web.config
